@@ -6,9 +6,9 @@
 
 ## Скачать
 
-**[Последний релиз](https://github.com/ReQCreate/-/releases/latest)** — скачайте `TishinaSetup.exe`.
+**[Последний релиз](https://github.com/ReQCreate/tishina/releases/latest)** — скачайте `TishinaSetup.exe`.
 
-Контрольная сумма: [SHA256SUMS.txt](https://github.com/ReQCreate/-/releases/latest/download/SHA256SUMS.txt).
+Контрольная сумма: [SHA256SUMS.txt](https://github.com/ReQCreate/tishina/releases/latest/download/SHA256SUMS.txt).
 
 Установщик ставит программу в профиль пользователя, без прав администратора. VB-Cable в комплект не входит: он устанавливается отдельно с [официального сайта](https://vb-audio.com/Cable/).
 
@@ -69,7 +69,7 @@
 
 ## Быстрый старт
 
-1. Установите `TishinaSetup.exe` из [релизов](https://github.com/ReQCreate/-/releases/latest).
+1. Установите `TishinaSetup.exe` из [релизов](https://github.com/ReQCreate/tishina/releases/latest).
 2. Установите VB-Cable и перезагрузите компьютер, если потребуется.
 3. Запустите «Тишину».
 4. Выберите микрофон и выход `CABLE Input`, пресет `Stream`, нажмите «Старт».
@@ -90,7 +90,7 @@
 
 ## Установка
 
-Скачайте `TishinaSetup.exe` из [GitHub Releases](https://github.com/ReQCreate/-/releases/latest).
+Скачайте `TishinaSetup.exe` из [GitHub Releases](https://github.com/ReQCreate/tishina/releases/latest).
 
 Установщик не подписан кодом, поэтому Windows SmartScreen может показать предупреждение. Для личного использования это ожидаемо. Скачивайте файл только из официального релиза.
 
@@ -191,4 +191,4 @@ VB-Cable не входит в поставку. Официальный сайт:
 
 ## Поддержка
 
-Проблемы и предложения: [GitHub Issues](https://github.com/ReQCreate/-/issues).
+Проблемы и предложения: [GitHub Issues](https://github.com/ReQCreate/tishina/issues).
