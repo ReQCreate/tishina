@@ -42,4 +42,9 @@ if (-not (Test-Path $setupExe)) {
 }
 
 $item = Get-Item $setupExe
+$hash = (Get-FileHash $setupExe -Algorithm SHA256).Hash
+$sumFile = Join-Path (Split-Path $setupExe -Parent) "SHA256SUMS.txt"
+Set-Content -Path $sumFile -Value ("{0}  {1}" -f $hash, $item.Name) -Encoding ASCII
+
 Write-Host ("Готово: {0} ({1:N1} МБ)" -f $item.FullName, ($item.Length / 1MB))
+Write-Host ("SHA256: {0}" -f $hash)

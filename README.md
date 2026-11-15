@@ -8,6 +8,8 @@
 
 **[Последний релиз](https://github.com/ReQCreate/-/releases/latest)** — скачайте `TishinaSetup.exe`.
 
+Контрольная сумма: [SHA256SUMS.txt](https://github.com/ReQCreate/-/releases/latest/download/SHA256SUMS.txt).
+
 Установщик ставит программу в профиль пользователя, без прав администратора. VB-Cable в комплект не входит: он устанавливается отдельно с [официального сайта](https://vb-audio.com/Cable/).
 
 ## Документация
